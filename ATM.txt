@@ -12,13 +12,13 @@ public class ATM
         while(true)  
         {  
             System.out.println("**********ATM Machine********** \n");  
-            System.out.println("Choose 1 for Withdraw");  
-            System.out.println("Choose 2 for Deposit");  
-            System.out.println("Choose 3 for Check Current Balance");  
-            System.out.println("Choose 4 for Terminate\n");  
-            System.out.print("Choose the operation:"); 
-            int choice = sc.nextInt();  
-            switch(choice)  
+            System.out.println("Select 1 for Withdraw");  
+            System.out.println("Select 2 for Deposit");  
+            System.out.println("Select 3 for Check Current Balance");  
+            System.out.println("Select 4 for Terminate\n");  
+            System.out.print("Select the operation:"); 
+            int select = sc.nextInt();  
+            switch(select)  
             {  
                 case 1:  
         System.out.print("Enter Amount to withdraw : ");  
